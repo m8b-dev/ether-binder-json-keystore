@@ -1,0 +1,21 @@
+{
+    "name": "m8b/ethbnd-keystore",
+    "description": "Library with JSON Keystore implementation, separate from main library due to dependency on scrypt",
+    "type": "library",
+    "license": "MPL-2.0",
+    "autoload": {
+        "psr-4": {
+            "M8B\\EtherBinder\\Wallet\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "DubbaThony"
+        }
+    ],
+    "require": {
+        "m8b/ether-binder": "^v0.0.5-alpha",
+        "ext-scrypt": "^2.0.1",
+        "ext-openssl": "*"
+    }
+}
